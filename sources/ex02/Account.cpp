@@ -107,15 +107,13 @@ Account::~Account(void)
 
 void	Account::_displayTimestamp( void )
 {
-	// time_t now;
-	// tm *ltm;
+	time_t now;
+	tm *ltm;
 
-	// now = time(NULL);
-	// ltm = localtime(&now);
-	// std::cout << "[" << std::setfill('0') << 1900 + ltm->tm_year << std::setw(2) << 1 + ltm->tm_mon << std::setw(2) << ltm->tm_mday
-	// 		<< "_" << std::setw(2) <<ltm->tm_hour << std::setw(2) << ltm->tm_min << std::setw(2) << ltm->tm_sec << "]";
-	std::cout << "[19920104_091532]";
-
+	now = time(NULL);
+	ltm = localtime(&now);
+	std::cout << "[" << std::setfill('0') << 1900 + ltm->tm_year << std::setw(2) << 1 + ltm->tm_mon << std::setw(2) << ltm->tm_mday
+			<< "_" << std::setw(2) <<ltm->tm_hour << std::setw(2) << ltm->tm_min << std::setw(2) << ltm->tm_sec << "]";
 }
 
 void	Account::displayAccountsInfos( void )
