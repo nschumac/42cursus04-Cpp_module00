@@ -9,7 +9,7 @@ This was our first C++ project at 42. Hopefully i've improved by now ;D
 - run each program and see what they do xd
 
 ## Subject:
-(cpp_module00_subject)[https://github.com/nschumac/42cursus04-Cpp_module00/blob/main/subject/cpp_module00-en.pdf]
+[cpp_module00_subject](https://github.com/nschumac/42cursus04-Cpp_module00/blob/main/subject/cpp_module00-en.pdf)
 
 ## Result:
 - Status: <span style="color:green">Completed</span>
